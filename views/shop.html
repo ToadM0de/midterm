@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <nav>
+        <ul>
+          <li><a href="/views/index.html">Home</a></li>
+          <li>
+            <a href="/views/shop.html"
+              >Shop</a
+            >
+          </li>
+          <li><a href="/views/404.html">About</a></li>
+        </ul>
+      </nav>
+</head>
+<body>
+    <table class="itemList">
+        <tr>
+        <td>Small product</td>
+        <td>$4.99</td>
+        <td><button class="buy" itemName="small" itemPrice="4.99">Buy Now</button></td>
+    </tr>
+    <tr>
+        <td>Medium product</td>
+        <td>$8.99</td>
+        <td><button class="buy" itemName="medium" itemPrice="8.99">Buy Now</button></td>
+    </tr>
+    <tr>
+        <td>Large product</td>
+        <td>$12.99</td>
+        <td><button class="buy" itemName="large" itemPrice="12.99">Buy Now</button></td>
+    </tr>
+    </table>
+    <table class="random">
+        <tr>
+    <td><label>Your Name:</label>
+    <input type="text" id="name"></td>
+    <td><label>Your Email:</label>
+    <input type="text" id="email"></td>
+</tr>
+<tr>
+    <td> <button id="download-pdf">Download Invoice</button></td>
+        <td><button id="view-pdf">View Invoice</button></td>
+</tr>
+<tr>
+    <td>  <iframe id="pdf-preview" src="" frameborder="0"></iframe></td>
+</tr>
+</table>
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <script type="module" src="/js/shop.js"></script>
+</body>
+</html>
