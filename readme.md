@@ -2,4 +2,4 @@
 
 ### Live Link
 
-[Home Page](https://{username}.github.io/{reponame}/homework-2)
+[Home Page]https://toadm0de.github.io/midterm/views/index.html
